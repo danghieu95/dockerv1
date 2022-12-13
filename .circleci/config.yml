@@ -30,7 +30,7 @@ workflows:
   test-build-deploy:
     jobs:
       - node/test
-      - build-and-push
+      - build-and-push:
         requires:
           - node/test
         filter:
