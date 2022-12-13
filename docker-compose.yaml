@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   mywebsite:
-    image: nhtua/react-docker:latest
+    image: xindunglangim/react:latest
     ports:
       - "80:80"
