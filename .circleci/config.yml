@@ -31,7 +31,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - "84:f0:b0:93:d6:17:f4:c5:49:f4:d7:c0:0a:93:7e:87"
-      - run: ssh -v root@4.194.145.7 './deploy.sh'
+      - run: ssh -o StrictHostKeyChecking=no -v root@4.194.145.7 './deploy.sh'
 
 
 workflows:
