@@ -30,8 +30,8 @@ jobs:
     steps:
       - add_ssh_keys:
           fingerprints:
-            - "90:66:4b:18:42:0b:c7:12:69:9a:55:0b:6c:e8:4b:bb"
-      - run: ssh -oStrictHostKeyChecking=no root@ec2-13-215-157-85.ap-southeast-1.compute.amazonaws.com './deploy.sh'
+            - "84:f0:b0:93:d6:17:f4:c5:49:f4:d7:c0:0a:93:7e:87"
+      - run: ssh -oStrictHostKeyChecking=no root@4.194.145.7 './deploy.sh'
 
 workflows:
   build-push-deploy:

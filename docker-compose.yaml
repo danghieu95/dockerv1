@@ -1,6 +1,6 @@
 version: "3.3"
 services:
   mywebsite:
-    image: xindunglangim/react:latest
+    image: xindunglangim/myapp:latest
     ports:
       - "80:80"
